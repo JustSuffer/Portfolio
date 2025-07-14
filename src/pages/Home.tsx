@@ -42,24 +42,24 @@ const Home = () => {
           </div>
         </div>
         
-      <div className="flex justify-end mt-8">
-        <Button 
-          variant="portfolio" 
-          size="lg"
-          className="group"
-          onClick={() => {
-            const link = document.createElement('a');
-            link.href = 'https://izzetportfolio.netlify.app/Izzet_Can_Sorna_CV.pdf'; // 📌 PDF dosyasının yolu
-            link.download = 'Izzet_Can_Sorna_CV.pdf'; // 📁 İndirilen dosyanın adı
-            document.body.appendChild(link); // Firefox uyumluluğu için
-            link.click(); // ⬇️ İndirme başlat
-            document.body.removeChild(link); // 🧹 Temizlik
-          }}
-        >
-          <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-          Download my CV
-        </Button>
-      </div>
+        <div className="flex justify-end mt-8">
+          <Button 
+            variant="portfolio" 
+            size="lg"
+            className="group"
+            onClick={() => {
+              const link = document.createElement('a');
+              link.href = '/Izzet_Can_Sorna_CV.pdf'; // 📌 PDF dosyasının yolu
+              link.download = 'Izzet_Can_Sorna_CV.pdf'; // 📁 İndirilen dosyanın adı
+              document.body.appendChild(link); // Firefox uyumluluğu için
+              link.click(); // ⬇️ İndirme başlat
+              document.body.removeChild(link); // 🧹 Temizlik
+            }}
+          >
+            <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
+            Download my CV
+          </Button>
+        </div>
       </div>
     </div>
   );
