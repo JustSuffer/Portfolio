@@ -21,6 +21,7 @@ const Home = () => {
                 variant="portfolio-outline" 
                 size="xl"
                 className="group"
+                onClick={() => window.location.href = '/work'}
               >
                 For My Development
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -46,6 +47,13 @@ const Home = () => {
             variant="portfolio" 
             size="lg"
             className="group"
+            onClick={() => {
+              // Create a temporary link to download the CV
+              const link = document.createElement('a');
+              link.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent('İzzet Can Sorna CV - Please contact for full CV');
+              link.download = 'Izzet-Can-Sorna-CV.txt';
+              link.click();
+            }}
           >
             <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
             Download my CV

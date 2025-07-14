@@ -34,13 +34,28 @@ const Navigation = () => {
         </div>
         
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" size="icon" className="text-white hover:text-white hover:bg-white/10">
+          <Button 
+            variant="ghost" 
+            size="icon" 
+            className="text-white hover:text-white hover:bg-white/10"
+            onClick={() => window.open('https://www.youtube.com/@izzetchovy', '_blank')}
+          >
             <Youtube className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="icon" className="text-white hover:text-white hover:bg-white/10">
+          <Button 
+            variant="ghost" 
+            size="icon" 
+            className="text-white hover:text-white hover:bg-white/10"
+            onClick={() => window.open('https://www.linkedin.com/in/izzetcansorna', '_blank')}
+          >
             <Linkedin className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="icon" className="text-white hover:text-white hover:bg-white/10">
+          <Button 
+            variant="ghost" 
+            size="icon" 
+            className="text-white hover:text-white hover:bg-white/10"
+            onClick={() => window.open('https://www.instagram.com/izzet_srn/', '_blank')}
+          >
             <Instagram className="h-5 w-5" />
           </Button>
         </div>

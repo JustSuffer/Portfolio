@@ -10,14 +10,14 @@ const Projects = () => {
       description: "Developed a computer vision-based turret system using Python and OpenCV to detect and track moving objects in real time. The turret automatically adjusts servo angles to follow targets, demonstrating integration of image processing with electromechanical control.",
       image: motionTrackingProject,
       technologies: ["Python", "OpenCV", "Servo Control", "Image Processing"],
-      githubLink: "#"
+      githubLink: "https://github.com/JustSuffer/Motion-tracking-turret"
     },
     {
       title: "RC Car and Controller",
       description: "Built an RC car controlled via a custom-designed joystick-based wireless controller using Arduino and NRF24L01 modules. The project focused on real-time communication, motor control, and user-friendly remote handling for responsive navigation.",
       image: rcCarProject,
       technologies: ["Arduino", "NRF24L01", "Motor Control", "Wireless Communication"],
-      githubLink: "#"
+      githubLink: "https://github.com/JustSuffer/RC-Car-Controller"
     }
   ];
 
@@ -65,6 +65,7 @@ const Projects = () => {
                     variant="portfolio-outline" 
                     size="sm"
                     className="group"
+                    onClick={() => window.open(project.githubLink, '_blank')}
                   >
                     <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
                     Github Repo
