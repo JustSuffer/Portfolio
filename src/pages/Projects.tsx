@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, ArrowRight } from "lucide-react";
 import motionTrackingProject from "@/assets/motion-tracking-project.jpg";
 import rcCarProject from "@/assets/rc-car-project.jpg";
+
 
 const Projects = () => {
   const projects = [
@@ -70,20 +71,25 @@ const Projects = () => {
                     <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
                     Github Repo
                   </Button>
-                  <Button 
-                    variant="ghost" 
-                    size="sm"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
+
                 </div>
+                
               </div>
+
             </div>
           ))}
         </div>
+        
       </div>
+                            <Button 
+                variant="portfolio-outline" 
+                size="xl"
+                className="group absolute bottom-2 left-1/2 transform -translate-x-1/2"
+                onClick={() => window.location.href = '/contact'}
+                >
+                For My Development
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
     </div>
   );
 };

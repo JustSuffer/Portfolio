@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+
 const Work = () => {
   const workExperiences = [
     {
@@ -71,6 +74,15 @@ const Work = () => {
           ))}
         </div>
       </div>
+                                  <Button 
+                variant="portfolio-outline" 
+                size="xl"
+                className="group absolute bottom-3 left-1/2 transform -translate-x-1/2"
+                onClick={() => window.location.href = '/about'}
+                >
+                For My Development
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
     </div>
   );
 };

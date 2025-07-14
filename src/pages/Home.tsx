@@ -50,8 +50,8 @@ const Home = () => {
             onClick={() => {
               // Create a temporary link to download the CV
               const link = document.createElement('a');
-              link.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent('İzzet Can Sorna CV - Please contact for full CV');
-              link.download = 'Izzet-Can-Sorna-CV.txt';
+
+              link.download = 'Izzet_Can_Sorna_CV.pdf';
               link.click();
             }}
           >

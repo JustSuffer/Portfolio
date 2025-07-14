@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+
 const About = () => {
   return (
     <div className="min-h-screen bg-portfolio-gradient px-6 py-20">
@@ -35,11 +38,23 @@ const About = () => {
                 principles and technical documentation processes. These skills are complemented by my ability to work with modern web 
                 technologies and frameworks—especially in frontend development—as well as tools like pgAdmin for database interaction.
               </p>
+
             </div>
           </div>
+          
         </div>
       </div>
+                      <Button 
+                variant="portfolio-outline" 
+                size="xl"
+                className="group absolute bottom-4 left-1/2 transform -translate-x-1/2"
+                onClick={() => window.location.href = '/projects'}
+                >
+                For My Development
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
     </div>
+    
   );
 };
 
