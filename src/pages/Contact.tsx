@@ -4,6 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Youtube, Linkedin, Instagram, Send } from "lucide-react";
 import { useState } from "react";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,10 +21,24 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
+
+    emailjs.send(
+      'service_v38qrf9',      // 📌 EmailJS dashboard'tan
+      'template_177uoum',     // 📌 Template ID
+      formData,               // 📤 Email template'e gönderilecek veriler
+      'yJo6Wmfi0PHp7P3Bf'       // 📌 EmailJS Public Key
+    ).then(
+      (result) => {
+        console.log('SUCCESS!', result.text);
+        alert('Your message has been sent!');
+      },
+      (error) => {
+        console.error('FAILED...', error.text);
+        alert('Something went wrong. Please try again.');
+      }
+    );
   };
 
   return (
