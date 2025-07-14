@@ -49,8 +49,8 @@ const Home = () => {
             className="group"
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/Izzet_Can_Sorna_CV.pdf'; // 📌 PDF dosyasının yolu
-              link.download = 'Izzet_Can_Sorna_CV.pdf'; // 📁 İndirilen dosyanın adı
+              link.href = '/Izzet_Can_Sorna_CV43.pdf'; // 📌 PDF dosyasının yolu
+              link.download = 'Izzet_Can_Sorna_CV43.pdf'; // 📁 İndirilen dosyanın adı
               document.body.appendChild(link); // Firefox uyumluluğu için
               link.click(); // ⬇️ İndirme başlat
               document.body.removeChild(link); // 🧹 Temizlik
