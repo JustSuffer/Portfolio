@@ -48,11 +48,12 @@ const Home = () => {
             size="lg"
             className="group"
             onClick={() => {
-              // Create a temporary link to download the CV
               const link = document.createElement('a');
-
-              link.download = 'Izzet_Can_Sorna_CV.pdf';
-              link.click();
+              link.href = '/Izzet_Can_Sorna_CV.pdf'; // 📌 PDF dosyasının yolu
+              link.download = 'Izzet_Can_Sorna_CV.pdf'; // 📁 İndirilen dosyanın adı
+              document.body.appendChild(link); // Firefox uyumluluğu için
+              link.click(); // ⬇️ İndirme başlat
+              document.body.removeChild(link); // 🧹 Temizlik
             }}
           >
             <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
