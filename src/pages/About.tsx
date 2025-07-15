@@ -17,7 +17,7 @@ const About = () => {
             <div className="pl-8">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 I am a highly motivated and detail-oriented Mechatronics Engineering student at Marmara University, set to graduate in 
-                June 2025 with a solid academic background and a final GPA of 3.40. My engineering education has provided me with a 
+                June 2025 with a solid academic background and a final GPA of 3.10. My engineering education has provided me with a 
                 multidisciplinary foundation in mechanical systems, electronics, control systems, and programming. Throughout my 
                 undergraduate studies, I have consistently demonstrated a strong interest in intelligent systems and automation, 
                 culminating in my graduation thesis: "Motion Tracking Turret with Image Processing", which integrates computer vision 
