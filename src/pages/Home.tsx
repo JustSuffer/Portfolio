@@ -41,11 +41,11 @@ const Home = () => {
             className="group"
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/Izzet_Can_Sorna_CV43.pdf'; // 📌 PDF dosyasının yolu
-              link.download = 'Izzet_Can_Sorna_CV43.pdf'; // 📁 İndirilen dosyanın adı
-              document.body.appendChild(link); // Firefox uyumluluğu için
-              link.click(); // ⬇️ İndirme başlat
-              document.body.removeChild(link); // 🧹 Temizlik
+              link.href = '/Izzet_Can_Sorna_CV43.pdf'; 
+              link.download = 'Izzet_Can_Sorna_CV43.pdf'; 
+              document.body.appendChild(link);
+              link.click(); 
+              document.body.removeChild(link); 
             }}
           >
             <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
