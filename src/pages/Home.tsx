@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         
-        <div className="flex justify-end mt-8">
+{/*         <div className="flex justify-end mt-8">
           <Button 
             variant="portfolio" 
             size="lg"
@@ -51,7 +51,7 @@ const Home = () => {
             <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
             Download my CV
           </Button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
