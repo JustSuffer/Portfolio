@@ -44,15 +44,7 @@ const About = () => {
           
         </div>
       </div>
-                      <Button 
-                variant="portfolio-outline" 
-                size="xl"
-                className="group absolute bottom-4 left-1/2 transform -translate-x-1/2"
-                onClick={() => window.location.href = '/projects'}
-                >
-                For My Development
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
+
     </div>
     
   );

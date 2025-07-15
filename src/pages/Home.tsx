@@ -17,15 +17,7 @@ const Home = () => {
                 with a strong interest in web development, aircraft
                 structures and maintenance, and computer vision systems.
               </p>
-              <Button 
-                variant="portfolio-outline" 
-                size="xl"
-                className="group"
-                onClick={() => window.location.href = '/work'}
-              >
-                For My Development
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
+
             </div>
             
             <div className="flex-shrink-0 ml-12">
