@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
 import motionTrackingProject from "@/assets/motion-tracking-project.jpg";
 import rcCarProject from "@/assets/rc-car-project.jpg";
-import sudokuGameProject from "@/assets/sudoku-game-project.jpg";
-import weddingAlbumProject from "@/assets/wedding-album-project.jpg";
+import sudokuGameProject from "@/assets/sudoku-game-project.png";
+import weddingAlbumProject from "@/assets/wedding-album-project.png";
 
 
 const Projects = () => {
