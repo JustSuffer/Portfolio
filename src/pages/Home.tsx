@@ -18,15 +18,7 @@ const Home = () => {
                 structures and maintenance, and computer vision systems.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Button 
-                  variant="portfolio" 
-                  size="lg"
-                  className="group w-full sm:w-auto"
-                  onClick={() => window.location.href = '/work'}
-                >
-                  For My Development
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
+
                 <Button 
                   variant="portfolio-outline" 
                   size="lg"
