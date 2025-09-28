@@ -25,8 +25,8 @@ const Home = () => {
                   className="group w-full sm:w-auto"
                   onClick={() => {
                     const link = document.createElement('a');
-                    link.href = '/İzzet_Can_Sorna_CV43.pdf'; 
-                    link.download = 'Izzet_Can_Sorna_CV43.pdf'; 
+                    link.href = '/İzzet_Can_Sorna_CV.pdf'; 
+                    link.download = 'Izzet_Can_Sorna_CV.pdf'; 
                     document.body.appendChild(link);
                     link.click(); 
                     document.body.removeChild(link); 
@@ -59,8 +59,8 @@ const Home = () => {
             className="group"
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/Izzet_Can_Sorna_CV43.pdf'; 
-              link.download = 'Izzet_Can_Sorna_CV43.pdf'; 
+              link.href = '/İzzet_Can_Sorna_CV.pdf'; 
+              link.download = 'Izzet_Can_Sorna_CV.pdf'; 
               document.body.appendChild(link);
               link.click(); 
               document.body.removeChild(link); 
