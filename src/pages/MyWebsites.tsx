@@ -30,7 +30,7 @@ const MyWebsites = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-portfolio-gradient px-4 sm:px-6 py-16 sm:py-20">
+    <div className="min-h-screen bg-portfolio-gradient px-4 sm:px-6 pt-24 sm:pt-28 pb-16 sm:pb-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 sm:mb-16">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 sm:mb-8">My Websites</h1>
