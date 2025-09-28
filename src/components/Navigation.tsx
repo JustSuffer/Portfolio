@@ -20,7 +20,7 @@ const Navigation = () => {
 
     <nav className="fixed top-0 left-0 right-0 z-50 p-3 sm:p-4 before:content-[''] before:absolute before:inset-0 before:z-[-1] before:bg-gradient-to-r before:from-[#501230]/100 before:to-[#122800]/100 ">
       <div className="max-w-7xl mx-auto flex items-center justify-between relative z-10">
-        <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8 overflow-x-auto">
+        <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8 overflow-x-auto custom-scrollbar">
           {navItems.map((item) => (
             <Link key={item.name} to={item.path}>
               <Button
