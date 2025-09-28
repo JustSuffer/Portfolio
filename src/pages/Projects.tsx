@@ -4,6 +4,8 @@ import motionTrackingProject from "@/assets/motion-tracking-project.jpg";
 import rcCarProject from "@/assets/rc-car-project.jpg";
 import sudokuGameProject from "@/assets/sudoku-game-project.png";
 import weddingAlbumProject from "@/assets/wedding-album-project.png";
+import packoriaProject from "@/assets/packoria-project.png";
+import watchpoplistProject from "@/assets/watchpoplist-project.png";
 
 
 const Projects = () => {
@@ -37,6 +39,22 @@ const Projects = () => {
       technologies: ["React", "CSS3", "Responsive Design", "Photo Gallery"],
       githubLink: "https://github.com/JustSuffer/vault",
       siteLink: "https://wedding-album-ized.netlify.app/"
+    },
+    {
+      title: "Packoria",
+      description: "Travel packing checklist application that helps users organize and plan their trip essentials. Features intuitive item management, categorization, and a clean interface to ensure nothing is forgotten when packing for travel.",
+      image: packoriaProject,
+      technologies: ["JavaScript", "HTML5", "CSS3", "Local Storage"],
+      githubLink: "https://github.com/JustSuffer/Packoria",
+      siteLink: "https://packoria.netlify.app/"
+    },
+    {
+      title: "WatchPopList",
+      description: "Movie rating and tracking platform for cinema enthusiasts. Users can search, rate, and maintain lists of watched movies with detailed statistics and personalized recommendations for an enhanced movie-watching experience.",
+      image: watchpoplistProject,
+      technologies: ["JavaScript", "API Integration", "CSS3", "Movie Database"],
+      githubLink: "https://github.com/JustSuffer/WatchPopList",
+      siteLink: "https://watchpoplist.netlify.app/"
     }
   ];
 
