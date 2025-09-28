@@ -25,7 +25,12 @@ const Home = () => {
                   size="lg"
                   className="group w-full sm:w-auto"
                   onClick={() => {
-                  window.open(cvAsset.url, '_blank');
+                    const link = document.createElement('a');
+                    link.href = '/İzzet_Can_Sorna_CV.pdf'; 
+                    link.download = 'Izzet_Can_Sorna_CV.pdf'; 
+                    document.body.appendChild(link);
+                    link.click(); 
+                    document.body.removeChild(link); 
                   }}
                 >
                   <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
