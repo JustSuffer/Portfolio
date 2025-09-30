@@ -34,11 +34,11 @@ const Work = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-portfolio-gradient px-6 py-20">
+    <div className="min-h-screen bg-portfolio-gradient px-4 sm:px-6 pt-24 sm:pt-28 pb-16 sm:pb-20">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-white mb-8">Work</h1>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        <div className="text-center mb-12 sm:mb-16">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 sm:mb-8">Work</h1>
+          <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
             Gaining hands-on experience even before graduation, I worked as an intern
             during my studies to develop real-world skills in engineering and software.
             These early roles helped me grow professionally, solve practical problems,
@@ -46,24 +46,24 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="space-y-12">
+        <div className="space-y-8 sm:space-y-12">
           {workExperiences.map((experience, index) => (
-            <div key={index} className="bg-portfolio-card rounded-xl p-8 shadow-lg border border-white/10">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-white mb-2">
+            <div key={index} className="bg-portfolio-card rounded-xl p-6 sm:p-8 shadow-lg border border-white/10">
+              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
+                <div className="flex-1 mb-4 lg:mb-0">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
                     {experience.title}
                   </h3>
-                  <p className="text-portfolio-red text-lg font-medium mb-2">
+                  <p className="text-portfolio-red text-base sm:text-lg font-medium mb-2">
                     {experience.company}
                   </p>
-                  <p className="text-gray-400 text-sm font-mono">
+                  <p className="text-gray-400 text-xs sm:text-sm font-mono">
                     {experience.period} / {experience.location}
                   </p>
                 </div>
-                <div className="flex-shrink-0 md:ml-8 mt-4 md:mt-0">
+                <div className="flex-shrink-0 lg:ml-8">
                   <div className="max-w-md">
-                    <p className="text-gray-300 leading-relaxed">
+                    <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                       {experience.description}
                     </p>
                   </div>
@@ -74,7 +74,6 @@ const Work = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };
