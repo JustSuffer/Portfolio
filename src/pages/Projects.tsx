@@ -6,6 +6,7 @@ import sudokuGameProject from "@/assets/sudoku-game-project.png";
 import weddingAlbumProject from "@/assets/wedding-album-project.png";
 import packoriaProject from "@/assets/packoria-project.png";
 import watchpoplistProject from "@/assets/watchpoplist-project.png";
+import skynowProject from "@/assets/skynow-project.png";
 
 
 const Projects = () => {
@@ -55,6 +56,14 @@ const Projects = () => {
       technologies: ["JavaScript", "API Integration", "CSS3", "Movie Database"],
       githubLink: "https://github.com/JustSuffer/WatchPopList",
       siteLink: "https://watchpoplist.netlify.app/"
+    },
+    {
+      title: "SkyNow",
+      description: "Weather forecast application providing 7-day weather predictions for any location worldwide. Features location-based weather detection, detailed daily forecasts, and an intuitive interface for quick weather information access.",
+      image: skynowProject,
+      technologies: ["JavaScript", "Weather API", "Geolocation", "Responsive Design"],
+      githubLink: "https://github.com/JustSuffer/SkyNow",
+      siteLink: "https://skynowiz.netlify.app/"
     }
   ];
 

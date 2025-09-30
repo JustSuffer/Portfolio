@@ -26,6 +26,12 @@ const MyWebsites = () => {
       description: "Movie rating and watchlist management system to track and rate films.",
       url: "https://watchpoplist.netlify.app",
       gradient: "from-orange-600/20 to-red-600/20"
+    },
+    {
+      title: "SkyNow",
+      description: "7-day weather forecast application for any location worldwide with geolocation support.",
+      url: "https://skynowiz.netlify.app",
+      gradient: "from-sky-600/20 to-blue-600/20"
     }
   ];
 
