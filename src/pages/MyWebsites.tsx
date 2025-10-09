@@ -32,6 +32,12 @@ const MyWebsites = () => {
       description: "7-day weather forecast application for any location worldwide with geolocation support.",
       url: "https://skynowiz.netlify.app",
       gradient: "from-sky-600/20 to-blue-600/20"
+    },
+    {
+      title: "TeamLock",
+      description: "Halısaha team management platform for creating players, building teams, and simulating matches.",
+      url: "https://teamlockiz.netlify.app",
+      gradient: "from-teal-600/20 to-emerald-600/20"
     }
   ];
 

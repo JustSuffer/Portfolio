@@ -7,6 +7,7 @@ import weddingAlbumProject from "@/assets/wedding-album-project.png";
 import packoriaProject from "@/assets/packoria-project.png";
 import watchpoplistProject from "@/assets/watchpoplist-project.png";
 import skynowProject from "@/assets/skynow-project.png";
+import teamlockProject from "@/assets/teamlock-project.png";
 
 
 const Projects = () => {
@@ -64,6 +65,14 @@ const Projects = () => {
       technologies: ["JavaScript", "Weather API", "Geolocation", "Responsive Design"],
       githubLink: "https://github.com/JustSuffer/SkyNow",
       siteLink: "https://skynowiz.netlify.app/"
+    },
+    {
+      title: "TeamLock",
+      description: "Halısaha team management platform for creating players, building balanced teams, and simulating indoor football matches. Comprehensive tool for organizing futsal games with player statistics and team formations.",
+      image: teamlockProject,
+      technologies: ["React", "Team Management", "Player Stats", "Match Simulation"],
+      githubLink: "https://github.com/JustSuffer/teamlock",
+      siteLink: "https://teamlockiz.netlify.app/"
     }
   ];
 
