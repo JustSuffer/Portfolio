@@ -38,6 +38,36 @@ const MyWebsites = () => {
       description: "Halısaha team management platform for creating players, building teams, and simulating matches.",
       url: "https://teamlockiz.netlify.app",
       gradient: "from-teal-600/20 to-emerald-600/20"
+    },
+    {
+      title: "Acoria",
+      description: "Strategic card battle game with class-based characters and round-based gameplay.",
+      url: "https://acoria.netlify.app",
+      gradient: "from-amber-600/20 to-yellow-600/20"
+    },
+    {
+      title: "GeoWord Quest",
+      description: "A word game where you collect letters by walking in the real world and decipher hidden words.",
+      url: "https://geoworldquest.netlify.app",
+      gradient: "from-red-600/20 to-blue-600/20"
+    },
+    {
+      title: "Izwired",
+      description: "Personal development platform combining task management, health tracking, and educational tools.",
+      url: "https://izwired.netlify.app",
+      gradient: "from-emerald-600/20 to-green-600/20"
+    },
+    {
+      title: "BlockCurse",
+      description: "Puzzle arcade game with online competition, daily challenges, and leaderboards.",
+      url: "https://blockcurse.netlify.app",
+      gradient: "from-indigo-600/20 to-purple-600/20"
+    },
+    {
+      title: "PID World",
+      description: "Interactive control engineering tools for PID tuning, stability analysis, and simulation.",
+      url: "https://pidworld.netlify.app",
+      gradient: "from-red-700/20 to-green-700/20"
     }
   ];
 

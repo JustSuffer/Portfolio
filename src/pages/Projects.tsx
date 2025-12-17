@@ -8,6 +8,11 @@ import packoriaProject from "@/assets/packoria-project.png";
 import watchpoplistProject from "@/assets/watchpoplist-project.png";
 import skynowProject from "@/assets/skynow-project.png";
 import teamlockProject from "@/assets/teamlock-project.png";
+import acoriaProject from "@/assets/acoria-project.png";
+import geowordProject from "@/assets/geoword-project.png";
+import izwiredProject from "@/assets/izwired-project.png";
+import blockcurseProject from "@/assets/blockcurse-project.png";
+import pidworldProject from "@/assets/pidworld-project.png";
 
 
 const Projects = () => {
@@ -73,6 +78,46 @@ const Projects = () => {
       technologies: ["React", "Team Management", "Player Stats", "Match Simulation"],
       githubLink: "https://github.com/JustSuffer/teamlock",
       siteLink: "https://teamlockiz.netlify.app/"
+    },
+    {
+      title: "Acoria",
+      description: "Strategic card battle game with class-based characters and round-based gameplay. A divine card game of strategy featuring deck building, online play, and bot matches.",
+      image: acoriaProject,
+      technologies: ["React", "Card Game", "Strategy", "Multiplayer"],
+      githubLink: "https://github.com/JustSuffer/acoria",
+      siteLink: "https://acoria.netlify.app/"
+    },
+    {
+      title: "GeoWord Quest",
+      description: "A word game where you collect letters by walking around in the real world and try to decipher a hidden word using those letters. Combines physical activity with puzzle solving.",
+      image: geowordProject,
+      technologies: ["React", "Geolocation", "Word Game", "Mobile-First"],
+      githubLink: "https://github.com/JustSuffer/geowordquest",
+      siteLink: "https://geoworldquest.netlify.app/"
+    },
+    {
+      title: "Izwired",
+      description: "Comprehensive personal development and productivity platform combining task management, health tracking, and educational tools under one roof. Track habits, learn languages, and improve yourself.",
+      image: izwiredProject,
+      technologies: ["React", "Productivity", "Health Tracking", "Education"],
+      githubLink: "https://github.com/JustSuffer/izwired",
+      siteLink: "https://izwired.netlify.app/"
+    },
+    {
+      title: "BlockCurse",
+      description: "Ultimate puzzle arcade game featuring online competition, daily challenges, and leaderboards. A mystical block-blasting adventure with competitive multiplayer and ranking systems.",
+      image: blockcurseProject,
+      technologies: ["React", "Puzzle Game", "Multiplayer", "Leaderboards"],
+      githubLink: "https://github.com/JustSuffer/blockcurse",
+      siteLink: "https://blockcurse.netlify.app/"
+    },
+    {
+      title: "PID World",
+      description: "Master control engineering with interactive tools for PID tuning, stability analysis, and system simulation. Educational platform for learning control systems with calculators and visualizations.",
+      image: pidworldProject,
+      technologies: ["React", "Control Systems", "PID Tuning", "Simulation"],
+      githubLink: "https://github.com/JustSuffer/pidworld",
+      siteLink: "https://pidworld.netlify.app/"
     }
   ];
 
