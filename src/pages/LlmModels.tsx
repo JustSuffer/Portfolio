@@ -7,29 +7,35 @@ const LlmModels = () => {
   const models = [
     {
       title: "Dark Circle Detection Model",
-      description: "Deep learning object detection model that analyzes facial images to detect and quantify dark circles under the eyes. Built with transfer learning on Google Colab and deployed as an API service on Hugging Face Spaces.",
-      image: darkCircleProject,
+      description:
+        "Deep learning object detection model that analyzes facial images to detect and quantify dark circles under the eyes. Built with transfer learning on Google Colab and deployed as an API service on Hugging Face Spaces.",
+      /* image: darkCircleProject, */
       technologies: ["Python", "YOLO", "Transfer Learning", "FastAPI"],
-      siteLink: "https://nagumo21-dark-circle-service.hf.space/docs#/default/analyze_and_show_analyze_and_show_post"
+      siteLink:
+        "https://nagumo21-dark-circle-service.hf.space/docs#/default/analyze_and_show_analyze_and_show_post",
     },
     {
       title: "Droopy Lower Eyelid Detection Model",
-      description: "YOLO-based computer vision model for automated quantification of lower eyelid positioning, detecting droopy eyelid conditions. Research-grade biometric model deployed as an API service on Hugging Face Spaces.",
-      image: lowerEyelidProject,
+      description:
+        "YOLO-based computer vision model for automated quantification of lower eyelid positioning, detecting droopy eyelid conditions. Research-grade biometric model deployed as an API service on Hugging Face Spaces.",
+      /* image: lowerEyelidProject, */
       technologies: ["Python", "YOLO", "Computer Vision", "FastAPI"],
-      siteLink: "https://nagumo21-lower-eyelid-service.hf.space/docs#/default/analyze_image_analyze_post"
-    }
+      siteLink:
+        "https://nagumo21-lower-eyelid-service.hf.space/docs#/default/analyze_image_analyze_post",
+    },
   ];
 
   return (
     <div className="min-h-screen bg-portfolio-gradient px-4 sm:px-6 pt-24 sm:pt-28 pb-16 sm:pb-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 sm:mb-16">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 sm:mb-8">LLM Models</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 sm:mb-8">
+            LLM Models
+          </h1>
           <p className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
-            A collection of deep learning models I've developed and deployed, focused on
-            computer vision and biometric analysis using transfer learning and modern object
-            detection frameworks.
+            A collection of deep learning models I've developed and deployed,
+            focused on computer vision and biometric analysis using transfer
+            learning and modern object detection frameworks.
           </p>
         </div>
 
@@ -38,7 +44,7 @@ const LlmModels = () => {
             <div
               key={index}
               className="bg-portfolio-card rounded-xl overflow-hidden shadow-2xl border border-white/10 hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
-              onClick={() => window.open(model.siteLink, '_blank')}
+              onClick={() => window.open(model.siteLink, "_blank")}
             >
               <div className="aspect-video overflow-hidden bg-black/40 flex items-center justify-center">
                 <img
@@ -70,7 +76,7 @@ const LlmModels = () => {
                   className="group w-full sm:w-auto"
                   onClick={(e) => {
                     e.stopPropagation();
-                    window.open(model.siteLink, '_blank');
+                    window.open(model.siteLink, "_blank");
                   }}
                 >
                   <ExternalLink className="mr-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
