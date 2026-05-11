@@ -4,6 +4,13 @@ import { ArrowRight } from "lucide-react";
 const Work = () => {
   const workExperiences = [
     {
+      title: "AI Engineer Intern",
+      company: "Bluesense — AI-Powered Software and Services",
+      period: "Dec 2025 - Ongoing",
+      location: "Boston, United States",
+      description: "Worked on the developed high-performance deep learning models on Google Colab to detect skin concerns like dark circles and wrinkles using transfer learning."
+    },
+    {
       title: "Aircraft Maintenance Engineer Intern",
       company: "Turkish Technic",
       period: "Aug - Sep 2023",

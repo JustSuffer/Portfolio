@@ -16,27 +16,31 @@ const About = () => {
             </div>
             <div className="pl-4 sm:pl-8">
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
-                I am a highly motivated and detail-oriented Mechatronics Engineering student at Marmara University, set to graduate in 
-                June 2025 with a solid academic background and a final GPA of 3.10. My engineering education has provided me with a 
-                multidisciplinary foundation in mechanical systems, electronics, control systems, and programming. Throughout my 
-                undergraduate studies, I have consistently demonstrated a strong interest in intelligent systems and automation, 
-                culminating in my graduation thesis: "Motion Tracking Turret with Image Processing", which integrates computer vision 
-                with real-time mechanical actuation.
+                I am a highly motivated Mechatronics Engineer and a graduate of Marmara University (Class of 2025), where I maintained a solid academic standing with a GPA of 3.10. My engineering education provided a rigorous multidisciplinary foundation in mechanical systems, electronics, control theory, and advanced programming. Throughout my academic tenure, I have focused on the intersection of intelligent systems and automation, consistently seeking to bridge the gap between theoretical research and practical application.
               </p>
 
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
-                My academic journey began at Nişantaşı Nuri Akın Anatolian High School in Istanbul, where I developed a disciplined 
-                approach to learning and a passion for problem-solving, especially in the fields of science and technology. This passion led 
-                me to pursue a degree in Mechatronics Engineering, where I have refined both my technical knowledge and hands-on skills 
-                through coursework, projects, and independent research.
+                My academic and research contributions are highlighted by several key projects:
+              </p>
+
+              <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
+                <span className="text-portfolio-red font-semibold">Computer Vision & Biometrics:</span> I have conducted specialized research in automated biometric quantification, specifically developing a YOLO-based computer vision model for the quantification of lower eyelid positioning. This work, which utilized state-of-the-art object detection frameworks, has been published on ResearchGate, demonstrating my ability to contribute to the broader scientific community.
+              </p>
+
+              <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
+                <span className="text-portfolio-red font-semibold">Robotics & Embedded Systems:</span> My technical expertise extends to quadrupedal robotics, exemplified by the development of Metsuke, an ESP32-S3 based quadruped robot. This project involved complex motion control, voltage regulation systems, and the integration of a custom React-based interface via WebSockets for real-time interaction.
+              </p>
+
+              <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
+                <span className="text-portfolio-red font-semibold">Graduation Thesis:</span> For my final capstone, I engineered a "Motion Tracking Turret with Image Processing." This project integrated real-time mechanical actuation with computer vision algorithms to achieve high-precision automated tracking.
+              </p>
+
+              <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
+                <span className="text-portfolio-red font-semibold">Full-Stack Development:</span> Beyond hardware, I have developed and deployed robust web applications, such as the dark-fantasy-themed platform Acoria. This involved utilizing React.js, Supabase, and AWS cloud infrastructure, showcasing a comprehensive understanding of frontend architecture and database management (pgAdmin).
               </p>
 
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                In terms of technical proficiency, I have developed competency in programming languages such as Python, JavaScript, and 
-                MATLAB, along with experience in designing automatic control systems. I am particularly interested in embedded systems, 
-                image processing applications, and system optimization. I also have a growing familiarity with aircraft maintenance 
-                principles and technical documentation processes. These skills are complemented by my ability to work with modern web 
-                technologies and frameworks—especially in frontend development—as well as tools like pgAdmin for database interaction.
+                In addition to my core technical competencies in Python, JavaScript, and MATLAB, I possess a growing familiarity with aircraft maintenance principles and technical documentation. This diverse skill set—ranging from embedded system optimization to high-level system architecture—enables me to approach complex engineering challenges with a disciplined, problem-solving mindset. Having built a strong foundation at Nişantaşı Nuri Akın Anatolian High School and refined it through rigorous university-level research, I am now focused on advancing the field of intelligent automation.
               </p>
 
             </div>

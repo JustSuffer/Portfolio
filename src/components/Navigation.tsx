@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Youtube, Linkedin, Instagram, Menu, X } from "lucide-react";
+import { Youtube, Linkedin, Instagram, Github, Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const location = useLocation();
@@ -13,6 +13,7 @@ const Navigation = () => {
     { name: "About", path: "/about" },
     { name: "Projects", path: "/projects" },
     { name: "My Websites", path: "/my-websites" },
+    { name: "LLM Models", path: "/llmmodels" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -54,6 +55,14 @@ const Navigation = () => {
 
         {/* Social icons */}
         <div className="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="text-white hover:text-white hover:bg-white/10 w-8 h-8 sm:w-10 sm:h-10"
+            onClick={() => window.open('https://github.com/JustSuffer', '_blank')}
+          >
+            <Github className="h-4 w-4 sm:h-5 sm:w-5" />
+          </Button>
           <Button
             variant="ghost"
             size="icon"
