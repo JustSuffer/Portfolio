@@ -13,6 +13,8 @@ import geowordProject from "@/assets/geoword-project.png";
 import izwiredProject from "@/assets/izwired-project.png";
 import blockcurseProject from "@/assets/blockcurse-project.png";
 import pidworldProject from "@/assets/pidworld-project.png";
+import darkCircleProject from "@/assets/dark-circle-project.png";
+import lowerEyelidProject from "@/assets/lower-eyelid-project.png";
 
 
 const Projects = () => {
@@ -118,6 +120,22 @@ const Projects = () => {
       technologies: ["React", "Control Systems", "PID Tuning", "Simulation"],
       githubLink: "https://github.com/JustSuffer/pidworld",
       siteLink: "https://pidworld.netlify.app/"
+    },
+    {
+      title: "Dark Circle Detection Model",
+      description: "Deep learning object detection model that analyzes facial images to detect and quantify dark circles under the eyes. Built with transfer learning on Google Colab and deployed as an API service on Hugging Face Spaces.",
+      image: darkCircleProject,
+      technologies: ["Python", "YOLO", "Transfer Learning", "FastAPI"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://nagumo21-dark-circle-service.hf.space/docs#/default/analyze_and_show_analyze_and_show_post"
+    },
+    {
+      title: "Droopy Lower Eyelid Detection Model",
+      description: "YOLO-based computer vision model for automated quantification of lower eyelid positioning, detecting droopy eyelid conditions. Research-grade biometric model deployed as an API service on Hugging Face Spaces.",
+      image: lowerEyelidProject,
+      technologies: ["Python", "YOLO", "Computer Vision", "FastAPI"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://nagumo21-lower-eyelid-service.hf.space/docs#/default/analyze_image_analyze_post"
     }
   ];
 
