@@ -1,11 +1,25 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Youtube, Linkedin, Instagram, Github, Menu, X } from "lucide-react";
+import { Youtube, Linkedin, Instagram, Github, Menu, X, ArrowUp } from "lucide-react";
 
 const Navigation = () => {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showHint, setShowHint] = useState(false);
+
+  useEffect(() => {
+    const seen = localStorage.getItem("menuHintSeen");
+    if (!seen) {
+      setShowHint(true);
+    }
+  }, []);
+
+  const dismissHint = () => {
+    setShowHint(false);
+    localStorage.setItem("menuHintSeen", "true");
+  };
 
   const navItems = [
     { name: "Home", path: "/" },
@@ -31,10 +45,30 @@ const Navigation = () => {
           variant="ghost"
           size="icon"
           className="md:hidden text-white hover:text-white hover:bg-white/10 w-10 h-10"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          onClick={() => {
+            setIsMenuOpen(!isMenuOpen);
+            dismissHint();
+          }}
         >
           {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </Button>
+
+        {/* First-visit hint pointing to hamburger button (mobile only) */}
+        {showHint && !isMenuOpen && (
+          <div className="md:hidden absolute top-16 left-3 z-50 flex items-start gap-2 animate-fade-in">
+            <ArrowUp className="h-6 w-6 text-white animate-bounce mt-1" />
+            <div className="bg-white text-black text-xs font-medium rounded-lg shadow-lg px-3 py-2 max-w-[220px] relative">
+              Tap here to learn more!
+              <button
+                onClick={dismissHint}
+                className="absolute -top-2 -right-2 bg-black text-white rounded-full w-5 h-5 flex items-center justify-center text-xs"
+                aria-label="Dismiss"
+              >
+                ×
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Desktop navigation */}
         <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
