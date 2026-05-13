@@ -46,13 +46,7 @@ const LlmModels = () => {
               className="bg-portfolio-card rounded-xl overflow-hidden shadow-2xl border border-white/10 hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
               onClick={() => window.open(model.siteLink, "_blank")}
             >
-              <div className="aspect-video overflow-hidden bg-black/40 flex items-center justify-center">
-                <img
-                  src={model.image}
-                  alt={model.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              {/* image removed */}
               <div className="p-6 sm:p-8">
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                   {model.title}
