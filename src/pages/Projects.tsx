@@ -207,13 +207,15 @@ const Projects = () => {
                 project.siteLink && window.open(project.siteLink, "_blank")
               }
             >
-              <div className="aspect-video overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              {project.image && (
+                <div className="aspect-video overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
               <div className="p-6 sm:p-8">
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                   {project.title}
