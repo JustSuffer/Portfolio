@@ -182,6 +182,22 @@ const Projects = () => {
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://nagumo21-alzheimermodelmri.hf.space/docs",
     },
+    {
+      title: "YourAmbience",
+      description:
+        "Ambient sound mixer and relaxation platform that helps users create personalized soundscapes for focus, sleep, and relaxation. Features a clean interface with customizable audio layers.",
+      technologies: ["React", "Audio API", "Sound Design", "Web Audio"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://yourambience.netlify.app/",
+    },
+    {
+      title: "NodeFinance",
+      description:
+        "Personal finance and budgeting platform designed to help users track expenses, manage budgets, and visualize financial data with intuitive charts and insights.",
+      technologies: ["React", "Data Visualization", "Finance", "Dashboard"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://nodefinance.netlify.app/",
+    },
   ];
 
   return (
