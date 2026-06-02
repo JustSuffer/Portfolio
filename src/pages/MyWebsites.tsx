@@ -68,6 +68,18 @@ const MyWebsites = () => {
       description: "Interactive control engineering tools for PID tuning, stability analysis, and simulation.",
       url: "https://pidworld.netlify.app",
       gradient: "from-red-700/20 to-green-700/20"
+    },
+    {
+      title: "YourAmbience",
+      description: "Ambient sound mixer and relaxation platform for creating personalized soundscapes for focus, sleep, and relaxation.",
+      url: "https://yourambience.netlify.app",
+      gradient: "from-cyan-600/20 to-blue-600/20"
+    },
+    {
+      title: "NodeFinance",
+      description: "Personal finance and budgeting platform for tracking expenses, managing budgets, and visualizing financial data.",
+      url: "https://nodefinance.netlify.app",
+      gradient: "from-emerald-600/20 to-lime-600/20"
     }
   ];
 
