@@ -152,7 +152,6 @@ const Projects = () => {
       title: "Dark Circle Detection Model",
       description:
         "Deep learning object detection model that analyzes facial images to detect and quantify dark circles under the eyes. Built with transfer learning on Google Colab and deployed as an API service on Hugging Face Spaces.",
-      /* image: darkCircleProject, */
       technologies: ["Python", "YOLO", "Transfer Learning", "FastAPI"],
       githubLink: "https://github.com/JustSuffer",
       siteLink:
@@ -162,11 +161,26 @@ const Projects = () => {
       title: "Droopy Lower Eyelid Detection Model",
       description:
         "YOLO-based computer vision model for automated quantification of lower eyelid positioning, detecting droopy eyelid conditions. Research-grade biometric model deployed as an API service on Hugging Face Spaces.",
-      /* image: lowerEyelidProject, */
       technologies: ["Python", "YOLO", "Computer Vision", "FastAPI"],
       githubLink: "https://github.com/JustSuffer",
       siteLink:
         "https://nagumo21-lower-eyelid-service.hf.space/docs#/default/analyze_image_analyze_post",
+    },
+    {
+      title: "Brain MRI Tumor Detection Model",
+      description:
+        "Deep learning classification model that analyzes brain MRI scans to detect and classify tumor presence. Built with state-of-the-art architectures and deployed as an API service on Hugging Face Spaces.",
+      technologies: ["Python", "Deep Learning", "MRI Analysis", "FastAPI"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://nagumo21-tumormodel.hf.space/docs",
+    },
+    {
+      title: "Brain MRI Alzheimer Classification Model",
+      description:
+        "Deep learning model for automated classification of Alzheimer's disease from brain MRI scans. Leverages advanced neural network architectures to assist in early diagnosis and research.",
+      technologies: ["Python", "Deep Learning", "MRI Analysis", "FastAPI"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://nagumo21-alzheimermodelmri.hf.space/docs",
     },
   ];
 
@@ -193,13 +207,15 @@ const Projects = () => {
                 project.siteLink && window.open(project.siteLink, "_blank")
               }
             >
-              <div className="aspect-video overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              {project.image && (
+                <div className="aspect-video overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
               <div className="p-6 sm:p-8">
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                   {project.title}

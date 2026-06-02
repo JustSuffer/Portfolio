@@ -23,6 +23,20 @@ const LlmModels = () => {
       siteLink:
         "https://nagumo21-lower-eyelid-service.hf.space/docs#/default/analyze_image_analyze_post",
     },
+    {
+      title: "Brain MRI Tumor Detection Model",
+      description:
+        "Deep learning classification model that analyzes brain MRI scans to detect and classify tumor presence. Built with state-of-the-art architectures and deployed as an API service on Hugging Face Spaces.",
+      technologies: ["Python", "Deep Learning", "MRI Analysis", "FastAPI"],
+      siteLink: "https://nagumo21-tumormodel.hf.space/docs",
+    },
+    {
+      title: "Brain MRI Alzheimer Classification Model",
+      description:
+        "Deep learning model for automated classification of Alzheimer's disease from brain MRI scans. Leverages advanced neural network architectures to assist in early diagnosis and research.",
+      technologies: ["Python", "Deep Learning", "MRI Analysis", "FastAPI"],
+      siteLink: "https://nagumo21-alzheimermodelmri.hf.space/docs",
+    },
   ];
 
   return (
