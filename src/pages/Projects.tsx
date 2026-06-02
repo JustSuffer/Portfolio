@@ -15,6 +15,8 @@ import blockcurseProject from "@/assets/blockcurse-project.png";
 import pidworldProject from "@/assets/pidworld-project.png";
 import darkCircleProject from "@/assets/dark-circle-project.png";
 import lowerEyelidProject from "@/assets/lower-eyelid-project.png";
+import yourambienceProject from "@/assets/yourambience.png.asset.json";
+import nodefinanceProject from "@/assets/nodefinance.png.asset.json";
 
 const Projects = () => {
   const projects = [
@@ -186,6 +188,7 @@ const Projects = () => {
       title: "YourAmbience",
       description:
         "Ambient sound mixer and relaxation platform that helps users create personalized soundscapes for focus, sleep, and relaxation. Features a clean interface with customizable audio layers.",
+      image: yourambienceProject.url,
       technologies: ["React", "Audio API", "Sound Design", "Web Audio"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://yourambience.netlify.app/",
@@ -194,6 +197,7 @@ const Projects = () => {
       title: "NodeFinance",
       description:
         "Personal finance and budgeting platform designed to help users track expenses, manage budgets, and visualize financial data with intuitive charts and insights.",
+      image: nodefinanceProject.url,
       technologies: ["React", "Data Visualization", "Finance", "Dashboard"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://nodefinance.netlify.app/",
