@@ -28,6 +28,7 @@ const Navigation = () => {
     { name: "Projects", path: "/projects" },
     { name: "My Websites", path: "/my-websites" },
     { name: "LLM Models", path: "/llmmodels" },
+    { name: "Certificates", path: "/certificates" },
     { name: "Contact", path: "/contact" },
   ];
 
