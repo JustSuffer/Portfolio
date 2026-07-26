@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import MyWebsites from "./pages/MyWebsites";
 import LlmModels from "./pages/LlmModels";
+import Certificates from "./pages/Certificates";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -42,6 +43,7 @@ const App = () => (
             <Route path="/projects" element={<Projects />} />
             <Route path="/my-websites" element={<MyWebsites />} />
             <Route path="/llmmodels" element={<LlmModels />} />
+            <Route path="/certificates" element={<Certificates />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
