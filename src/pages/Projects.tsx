@@ -17,6 +17,8 @@ import darkCircleProject from "@/assets/dark-circle-project.png";
 import lowerEyelidProject from "@/assets/lower-eyelid-project.png";
 import yourambienceProject from "@/assets/yourambience.png.asset.json";
 import nodefinanceProject from "@/assets/nodefinance.png.asset.json";
+import almpProject from "@/assets/almp.png.asset.json";
+import auraxiProject from "@/assets/auraxi.png.asset.json";
 
 const Projects = () => {
   const projects = [
@@ -201,6 +203,24 @@ const Projects = () => {
       technologies: ["React", "Data Visualization", "Finance", "Dashboard"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://nodefinance.netlify.app/",
+    },
+    {
+      title: "ALMP - Adaptive Latent Manifold Projection",
+      description:
+        "As Deep Learning (DL) models and Convolutional Neural Networks (CNNs) scale in complexity, their internal decision-making processes have become increasingly opaque. This \"black box\" phenomenon poses a critical bottleneck, particularly in high-stakes domains such as medical image analysis (e.g., Alzheimer's classification, brain tumor localization), where architectural transparency is as vital as predictive accuracy.",
+      image: almpProject.url,
+      technologies: ["Deep Learning", "CNN", "Visualization", "Interpretability"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://almp-project.netlify.app/",
+    },
+    {
+      title: "Aura XI",
+      description:
+        "Welcome to the Next-Gen Football Manager Experience! Tired of classic, tedious, and sluggish football management games? Aura XI offers a fast-paced, competitive experience packed with \"Aura.\" Build your dream team, open rare player packs, define your strategy, and dominate the pitch!",
+      image: auraxiProject.url,
+      technologies: ["React", "Game", "Football Manager", "Strategy"],
+      githubLink: "https://github.com/JustSuffer",
+      siteLink: "https://auraxi.netlify.app/",
     },
   ];
 
