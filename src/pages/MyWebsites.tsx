@@ -80,6 +80,18 @@ const MyWebsites = () => {
       description: "Personal finance and budgeting platform for tracking expenses, managing budgets, and visualizing financial data.",
       url: "https://nodefinance.netlify.app",
       gradient: "from-emerald-600/20 to-lime-600/20"
+    },
+    {
+      title: "ALMP - Adaptive Latent Manifold Projection",
+      description: "Visualization platform tackling the deep learning black box problem with latent manifold projection for interpretable CNN decision-making in medical imaging.",
+      url: "https://almp-project.netlify.app",
+      gradient: "from-fuchsia-600/20 to-pink-600/20"
+    },
+    {
+      title: "Aura XI",
+      description: "Next-gen football manager experience — build your dream team, open rare player packs, define your strategy, and dominate the pitch.",
+      url: "https://auraxi.netlify.app",
+      gradient: "from-green-700/20 to-yellow-600/20"
     }
   ];
 
