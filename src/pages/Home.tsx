@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, ArrowRight } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
+import cvAsset from "@/assets/Izzet_Can_Sorna_CV.pdf.asset.json";
 
 const Home = () => {
   return (
