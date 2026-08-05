@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Download, ArrowRight } from "lucide-react";
+import { Download } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
-import cvAsset from "@/assets/Izzet_Can_Sorna_CV.pdf.asset.json";
+import cvPdf from "@/assets/Izzet_Can_Sorna_CV.pdf";
 
 const Home = () => {
   return (
@@ -19,22 +19,21 @@ const Home = () => {
                 structures and maintenance, and computer vision systems.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-
                 <Button 
+                  asChild
                   variant="portfolio-outline" 
                   size="lg"
                   className="group w-full sm:w-auto"
-                  onClick={() => {
-                    const link = document.createElement('a');
-                    link.href = '/İzzet_Can_Sorna_CV.pdf'; 
-                    link.download = 'Izzet_Can_Sorna_CV.pdf'; 
-                    document.body.appendChild(link);
-                    link.click(); 
-                    document.body.removeChild(link); 
-                  }}
                 >
-                  <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-                  Download my CV
+                  <a 
+                    href={cvPdf} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    download="Izzet_Can_Sorna_CV.pdf"
+                  >
+                    <Download className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
+                    Download my CV
+                  </a>
                 </Button>
               </div>
             </div>
@@ -52,8 +51,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
-
       </div>
     </div>
   );
