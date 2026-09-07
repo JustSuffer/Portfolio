@@ -190,7 +190,7 @@ const Projects = () => {
       title: "YourAmbience",
       description:
         "Ambient sound mixer and relaxation platform that helps users create personalized soundscapes for focus, sleep, and relaxation. Features a clean interface with customizable audio layers.",
-      image: yourambienceProject.url,
+      image: yourambienceProject,
       technologies: ["React", "Audio API", "Sound Design", "Web Audio"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://yourambience.netlify.app/",
@@ -199,7 +199,7 @@ const Projects = () => {
       title: "NodeFinance",
       description:
         "Personal finance and budgeting platform designed to help users track expenses, manage budgets, and visualize financial data with intuitive charts and insights.",
-      image: nodefinanceProject.url,
+      image: nodefinanceProject,
       technologies: ["React", "Data Visualization", "Finance", "Dashboard"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://nodefinance.netlify.app/",
@@ -208,7 +208,7 @@ const Projects = () => {
       title: "ALMP - Adaptive Latent Manifold Projection",
       description:
         "As Deep Learning (DL) models and Convolutional Neural Networks (CNNs) scale in complexity, their internal decision-making processes have become increasingly opaque. This \"black box\" phenomenon poses a critical bottleneck, particularly in high-stakes domains such as medical image analysis (e.g., Alzheimer's classification, brain tumor localization), where architectural transparency is as vital as predictive accuracy.",
-      image: almpProject.url,
+      image: almpProject,
       technologies: ["Deep Learning", "CNN", "Visualization", "Interpretability"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://almp-project.netlify.app/",
@@ -217,7 +217,7 @@ const Projects = () => {
       title: "Aura XI",
       description:
         "Welcome to the Next-Gen Football Manager Experience! Tired of classic, tedious, and sluggish football management games? Aura XI offers a fast-paced, competitive experience packed with \"Aura.\" Build your dream team, open rare player packs, define your strategy, and dominate the pitch!",
-      image: auraxiProject.url,
+      image: auraxiProject,
       technologies: ["React", "Game", "Football Manager", "Strategy"],
       githubLink: "https://github.com/JustSuffer",
       siteLink: "https://auraxi.netlify.app/",
