@@ -15,10 +15,10 @@ import blockcurseProject from "@/assets/blockcurse-project.png";
 import pidworldProject from "@/assets/pidworld-project.png";
 import darkCircleProject from "@/assets/dark-circle-project.png";
 import lowerEyelidProject from "@/assets/lower-eyelid-project.png";
-import yourambienceProject from "@/assets/yourambience.png.asset.json";
-import nodefinanceProject from "@/assets/nodefinance.png.asset.json";
-import almpProject from "@/assets/almp.png.asset.json";
-import auraxiProject from "@/assets/auraxi.png.asset.json";
+import yourambienceProject from "@/assets/yourambience.png";
+import nodefinanceProject from "@/assets/nodefinance.png";
+import almpProject from "@/assets/almp.png";
+import auraxiProject from "@/assets/auraxi.png";
 
 const Projects = () => {
   const projects = [
